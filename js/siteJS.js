@@ -18,7 +18,7 @@ function sumOfAllFears(){
  for(let i = 0; i < numbers.length-1; i++){
   for(let j = i+1; j < numbers.length; j++){
    if(numbers[i]+numbers[j] == kValue){
-    output1.innerHTML = `success, ${numbers[i]} + ${numbers[j]} = ${kValue}`;
+    output1.innerHTML = `Success, ${numbers[i]} + ${numbers[j]} = ${kValue}`;
     found = true;
     break;
    }
@@ -26,7 +26,7 @@ function sumOfAllFears(){
  }
  
  if(!found){
-      output1.innerHTML = `failure, ${kValue} not found`;
+      output1.innerHTML = `Failure, ${kValue} not found`;
 
  }
 
