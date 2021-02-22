@@ -1,5 +1,7 @@
 
 document.getElementById("btnSubmit").addEventListener("click", sumOfAllFears);
+document.getElementById("btnClear").addEventListener("click", Clear);
+
 
 function sumOfAllFears(){
 
@@ -46,3 +48,9 @@ function sumOfAllFears(){
  }
 }
 
+function Clear(){
+    document.getElementById("kValue").value = "";
+    document.getElementById("arrayLength").value = "";
+    document.getElementById("output").innerText = "";
+    document.getElementById("results").innerText = "";
+}
